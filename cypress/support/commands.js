@@ -24,9 +24,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-/* Cypress.on('fail', (error, runnable) => {
-    // Evita que Cypress arroje el error y lo capture
-    // para que la ejecución de las pruebas continúe
+ Cypress.on('fail', (error, runnable) => {
     return false;
   });
- */  

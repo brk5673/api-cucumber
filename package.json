@@ -4,8 +4,8 @@
   "description": "cucumber api test",
   "main": "index.js",
   "scripts": {
-    "cypress:runner": "cypress open --e2e --browser chrome",
-    "cypress:execution": "cypress run --spec cypress/e2e/features/*"
+    "cy:open": "cypress open --e2e --browser chrome",
+    "cy:run": "cypress run --spec cypress/e2e/features/api_test.feature"
   },
   "keywords": [
     "cypress"
